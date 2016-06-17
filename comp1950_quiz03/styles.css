@@ -1,0 +1,57 @@
+#content{
+	width: 375px !important;
+	margin-top: 10px;
+}
+
+li:first-child {
+	margin-top: 0px;
+}
+
+div>h1{
+	color: darkred;
+	border-bottom: 1px solid darkred;
+	font-size: 20px;
+}
+
+#rules p:first-child{
+	color: blue;
+	font-style: italic;
+	
+}
+
+#rules>p{
+	font-size: 14px;
+}
+.important{
+	background-color: yellow;
+}
+
+.critical{
+	color: red;
+	border: 1px solid black;
+}
+
+ul li {
+	margin: 25px 0px 27px 0px;
+	font-size: 14px;
+}
+
+ul {list-style-type: square;} 
+
+ul li a{
+	color: darkred;
+	border: 1px dotted black;
+}
+
+a[href^="https"] {
+	border: none;
+}
+
+li h1{
+	font-size: 14px;
+	color: blue;
+}
+
+em{
+	border: 1px dotted black;
+}
